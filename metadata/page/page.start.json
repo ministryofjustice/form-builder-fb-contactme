@@ -5,7 +5,8 @@
   "lede": "Want to stay in touch to hear the latest Form Builder?",
   "steps": [
     "page.contact-details",
-    "page.check"
+    "page.check",
+    "page.thanks"
   ],
   "url": "/"
 }
