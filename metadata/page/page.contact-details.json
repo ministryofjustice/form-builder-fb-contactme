@@ -1,0 +1,50 @@
+{
+  "_id": "page.contact-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.contact-details--text.input_auto__1",
+      "_type": "text",
+      "label": "Name",
+      "name": "input_auto__1"
+    },
+    {
+      "_id": "page.contact-details--text.input_auto__2",
+      "_type": "text",
+      "label": "Email",
+      "name": "input_auto__2"
+    },
+    {
+      "_id": "page.contact-details--text.input_auto__3",
+      "_type": "text",
+      "label": "Department",
+      "name": "input_auto__3"
+    },
+    {
+      "_id": "page.contact-details--number.input_auto__5",
+      "_type": "number",
+      "errors": {
+        "maximum": {
+          "inline": "Your must input a value between 1 - 10"
+        },
+        "minimum": {
+          "inline": "Your must input a value between 1 - 10"
+        }
+      },
+      "label": "On a scale of 1 - 10, how likely are you to use Form Builder",
+      "name": "input_auto__5",
+      "validation": {
+        "maximum": 10,
+        "minimum": 1
+      }
+    },
+    {
+      "_id": "page.contact-details--textarea.input_auto__4",
+      "_type": "textarea",
+      "label": "What did you think of the Form Builder?",
+      "name": "input_auto__4"
+    }
+  ],
+  "heading": "Contact me details",
+  "url": "contact-details"
+}
