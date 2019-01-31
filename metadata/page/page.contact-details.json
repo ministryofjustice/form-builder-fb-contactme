@@ -9,75 +9,22 @@
       "$field": true,
       "_id": "page.contact-details--text.input_auto__1",
       "_type": "text",
-      "label": "Name",
+      "label": "Your Name",
       "name": "input_auto__1"
     },
     {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "_id": "page.contact-details--text.input_auto__2",
+      "_id": "page.contact-details--email.auto_name__1",
+      "_type": "email",
+      "label": "Contact Email",
+      "name": "email"
+    },
+    {
+      "_id": "page.contact-details--text.auto_name__2",
       "_type": "text",
-      "label": "Email",
-      "name": "input_auto__2"
-    },
-    {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "_id": "page.contact-details--text.input_auto__3",
-      "_type": "text",
-      "label": "Department",
-      "name": "input_auto__3"
-    },
-    {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "_id": "page.contact-details--number.input_auto__5",
-      "_type": "number",
-      "errors": {
-        "maximum": {
-          "inline": "Your must input a value between 1 - 10"
-        },
-        "minimum": {
-          "inline": "Your must input a value between 1 - 10"
-        }
-      },
-      "label": "On a scale of 1 - 10, how likely are you to use Form Builder",
-      "name": "input_auto__5",
-      "validation": {
-        "maximum": 10,
-        "minimum": 1,
-        "required": false
-      }
-    },
-    {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "_id": "page.contact-details--textarea.input_auto__4",
-      "_type": "textarea",
-      "label": "What did you think of the Form Builder?",
-      "name": "input_auto__4",
-      "validation": {
-        "required": false
-      }
-    },
-    {
-      "_id": "page.contact-details--text.input_auto__6",
-      "_type": "text",
-      "label": "Are there any features you'd like to see added to form builder?",
-      "name": "input_auto__6",
-      "validation": {
-        "required": false
-      }
+      "label": "Which Department do you work in?",
+      "name": "auto_name__2"
     }
   ],
-  "heading": "Contact me details",
+  "heading": "Find out more about Form Builder",
   "url": "contact-details"
 }

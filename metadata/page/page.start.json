@@ -1,10 +1,14 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "heading": "Stay in touch",
-  "lede": "Want to stay in touch to hear the latest Form Builder?",
+  "body": "Please let us know a bit more about your needs",
+  "heading": "Contact Us",
+  "lede": "Thinking you might want to use Form Builder?",
   "steps": [
     "page.contact-details",
+    "page.purpose",
+    "page.device",
+    "page.access",
     "page.check",
     "page.thanks"
   ],
