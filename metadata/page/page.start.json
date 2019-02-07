@@ -1,0 +1,16 @@
+{
+  "_id": "page.start",
+  "_type": "page.start",
+  "body": "Let us know about your needs for using Form Builder.",
+  "heading": "Contact the Form Builder team",
+  "lede": "Form Builder is available for teams that want to build digital forms.",
+  "steps": [
+    "page.contact-details",
+    "page.purpose",
+    "page.device",
+    "page.access",
+    "page.check",
+    "page.end"
+  ],
+  "url": "/"
+}

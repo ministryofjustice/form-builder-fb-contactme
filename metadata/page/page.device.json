@@ -1,0 +1,35 @@
+{
+  "_id": "page.device",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.device--radios.auto_name__7",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.device--radios.auto_name__7--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.device--radios.auto_name__7--radio.auto_value__2",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__2"
+        },
+        {
+          "_id": "page.device--radios.auto_name__7--radio.auto_value__3",
+          "_type": "radio",
+          "label": "I don't know",
+          "value": "auto_value__3"
+        }
+      ],
+      "legend": "Do you have a Mac computer?",
+      "name": "auto_name__7"
+    }
+  ],
+  "heading": "What device do you use?",
+  "lede": "You can only use Form Builder on a Mac computer.",
+  "url": "device"
+}

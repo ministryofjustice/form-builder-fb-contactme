@@ -1,0 +1,39 @@
+{
+  "_id": "page.purpose",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.purpose--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.purpose--checkboxes--checkbox.auto_name__3",
+          "_type": "checkbox",
+          "label": "Build, test and publish forms",
+          "name": "auto_name__3"
+        },
+        {
+          "_id": "page.purpose--checkboxes--checkbox.auto_name__4",
+          "_type": "checkbox",
+          "label": "Create HTML prototypes of GOV.UK services",
+          "name": "auto_name__4"
+        },
+        {
+          "_id": "page.purpose--checkboxes--checkbox.auto_name__5",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.purpose--checkboxes--checkbox.auto_name__5--textarea.auto_name__6",
+            "_type": "textarea",
+            "label": "Tell us more about why you want to use Form Builder.",
+            "name": "auto_name__6"
+          },
+          "label": "Other",
+          "name": "auto_name__5"
+        }
+      ],
+      "legend": "Select all that apply"
+    }
+  ],
+  "heading": "Why do you want to use Form Builder?",
+  "url": "purpose"
+}
