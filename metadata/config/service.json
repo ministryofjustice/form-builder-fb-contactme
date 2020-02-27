@@ -5,6 +5,7 @@
   "emailTemplateTeam": "elliott.bouher@digital.justice.gov.uk",
   "emailTemplateUser": "Thank you for submitting our contact me form.\r\n\r\nA member of the Form Builder team will be in contact with you soon.\r\n\r\nThank you,\r\nForm Builder Team",
   "name": "Form Builder: Find out more",
+  "serviceEmailAddress": "form-builder@digital.justice.gov.uk",
   "phase": "alpha",
   "phaseText": "Service phase text goes here"
 }
